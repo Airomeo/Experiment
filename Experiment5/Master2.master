@@ -1,0 +1,93 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Master2.master.cs" Inherits="Master2" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style2 {
+            text-align: center;
+            height: 64px;
+            //background-color: #FFFFCC;
+        }
+        .auto-style4 {
+            height: 88px;
+            background-image:url("images/head.jpg");
+            text-align:center;
+            font-size:30px;
+            font-weight:bold;
+        }
+        .auto-style6 {
+            height: 200px;
+            //background-color: #99CCFF;
+            width: 30%;
+        }
+        .auto-style7 {
+           // background-color: #99CCFF;
+        }
+        .auto-style8 {
+            // background-color: #99CCFF;
+            width: 30%;
+        }
+        .auto-style9 {
+            width: 30%;
+            text-align:center;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table class="auto-style1" border="1">
+            <tr>
+                <td class="auto-style4" colspan="2" >在线投票调查网</td>
+            </tr>
+            <tr>
+                <td class="auto-style8">
+                    <asp:Image ID="Image2" runat="server" Height="64px" ImageUrl="~/images/0.jpg" />
+                    <br />
+                    <br />
+                    <asp:Menu ID="Menu1" runat="server" BackColor="#FFFBD6" DataSourceID="SiteMapDataSource1" DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="0.8em" ForeColor="#990000" StaticSubMenuIndent="10px">
+                        <DynamicHoverStyle BackColor="#990000" ForeColor="White" />
+                        <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                        <DynamicMenuStyle BackColor="#FFFBD6" />
+                        <DynamicSelectedStyle BackColor="#FFCC66" />
+                        <StaticHoverStyle BackColor="#990000" ForeColor="White" />
+                        <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                        <StaticSelectedStyle BackColor="#FFCC66" />
+                    </asp:Menu>
+                    <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+                    <br />
+                    <br />
+                    <br class="auto-style7" />
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+                <td class="auto-style7" rowspan="2">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style6">
+                    <asp:Calendar ID="Calendar1" runat="server"></asp:Calendar>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style9">母版二</td>
+                <td class="auto-style2">&nbsp;版权所有 湘ICP证 17408001158号<br class="auto-style7" />
+                    Copyright&copy2016-2019. Star.All Rights Reserved</td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

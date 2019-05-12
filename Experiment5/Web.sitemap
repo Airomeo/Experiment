@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="default.aspx" title="主页"  description="主页">
+    <siteMapNode url="register.aspx" title="注册"  description="注册" />
+    <siteMapNode url="login.aspx" title="登录"  description="登录" />
+    <siteMapNode url="vote.aspx" title="投票"  description="投票">
+      <siteMapNode url="vote1.aspx" title="投票1"  description="投票1" />
+      <siteMapNode url="vote2.aspx" title="投票2"  description="投票2" />
+      <siteMapNode url="vote3.aspx" title="投票3"  description="投票3" />
+    </siteMapNode>
+    <siteMapNode url="servey.aspx" title="调查" description ="调查">
+      <siteMapNode url="sy1.aspx" title="调查1" description ="调查1"/>
+      <siteMapNode url="sy2.aspx" title="调查2" description ="调查2"/>
+      <siteMapNode url="sy3.aspx" title="调查3" description ="调查3"/>
+    </siteMapNode>
+  </siteMapNode >
+</siteMap>

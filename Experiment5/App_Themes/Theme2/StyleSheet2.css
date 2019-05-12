@@ -1,0 +1,13 @@
+﻿body {
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 15px;
+    padding-bottom: 12px;
+    font-family: Arial;
+    background-color:#584242;
+    word-wrap: break-word;
+}
+
+table {
+    background-color: lightgray;
+}
