@@ -7,15 +7,15 @@ using System.Web.UI.WebControls;
 
 public partial class DataManage : System.Web.UI.Page
 {
-    MyPetShopDataContext db = new MyPetShopDataContext( );
-    protected void Bind( )
+    MyPetShopDataContext db = new MyPetShopDataContext();
+    protected void Bind()
     {
         var results = from c in db.Category
                       select c;
         gvCategory.DataSource = results;
         gvCategory.DataBind();
     }
-    protected void btnQueryAll_Click(object sender,EventArgs e)
+    protected void btnQueryAll_Click(object sender, EventArgs e)
     {
         Bind();
     }

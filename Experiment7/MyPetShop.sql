@@ -5,13 +5,13 @@ GO
 CREATE DATABASE MyPetShop
 ON 
 ( NAME = MyPetShop,
-    FILENAME =' E:\学习的资料\third\exercise7\App_Data\MyPetShop.mdf',
+    FILENAME = 'C:\Projects\ASP.NET\Experiment\Experiment7\App_Data\MyPetShop.mdf',
     SIZE = 5MB,
     MAXSIZE = 50MB,
     FILEGROWTH = 1MB )
 LOG ON
 ( NAME = MyPetShop_log,
-    FILENAME = ' E:\学习的资料\third\exercise7\App_Data\MyPetShop_log.ldf',
+    FILENAME = 'C:\Projects\ASP.NET\Experiment\Experiment7\App_Data\MyPetShop_log.ldf',
     SIZE = 3MB,
     MAXSIZE = 25MB,
     FILEGROWTH = 1MB )
